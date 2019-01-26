@@ -1,8 +1,12 @@
 <div class="banner" style="background-image: url('https://images.unsplash.com/photo-1468072114808-903e572b8ead?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1866&q=80');">
   <div class="banner-content">
     <h1>Mister Cocktail</h1>
-    <div class="create-btn"><%= link_to 'Create Cocktail', new_cocktail_path %>
-    </div>
+    <br>
+    <br>
+
+<%= link_to new_cocktail_path, { class: "btn btn-primary" } do %>
+<%= "Create A Cocktail" %>
+<% end %>
   </div>
 </div>
 
